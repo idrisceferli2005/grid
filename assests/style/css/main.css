@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&family=Poppins&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+*,
+::after ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 112.8rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "", sans-serif;
+  font-weight: 400px;
+}
+
+p {
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+.head img {
+  width: 200px;
+}
+
+.about_skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 10%;
+  background-color: #222;
+}
+.about_skill .text {
+  max-width: 600px;
+}
+.about_skill .text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.about_skill .button {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+}
+.about_skill img {
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+.choose {
+  background-color: #8a5cd9;
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+.choose .why {
+  text-align: left;
+  margin-left: 330px;
+}
+.choose h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.choose p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+.choose .cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.choose .card {
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+}
+.choose .card h3 {
+  font-size: 3.5rem;
+}
+.choose .card p {
+  font-weight: bold;
+}
+
+.para {
+  padding: 50px 10%;
+  background-color: #f8f8f8;
+}
+.para h2 {
+  display: flex;
+  margin-left: 140px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.para .boxs {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.para .box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: calc(50% - 120px);
+  text-align: left;
+}
+.para .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.nav .grid {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: orange;
+}
+
+.hero h1 {
+  margin-left: 320px;
+}
+
+.companies {
+  text-align: left;
+  padding: 2rem;
+  background-color: #8a5cd9;
+}
+.companies h2 {
+  font-size: 3.5rem;
+  margin-left: 295px;
+}
+.companies .media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  flex-wrap: wrap;
+}
+.companies .slide img {
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  padding: 200px;
+}
+.content .text_content {
+  flex: 1;
+}
+.content .text_content .read_more {
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+.content .gifts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.content .gift {
+  border: 1px solid black;
+  padding: 3rem;
+  border-radius: 50px;
+  height: 200px;
+}
+
+.foot {
+  height: 50vh;
+  background-color: #333333;
+  text-align: center;
+}
+.foot .sample {
+  text-align: center;
+  margin: 210px;
+  padding: 50px;
+}

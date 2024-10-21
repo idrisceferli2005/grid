@@ -1,0 +1,45 @@
+*,
+::after
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $bisqueColor;
+    font-family: Arial,sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+
+    
+}
+a{
+    text-decoration: none;
+    
+    
+    &:hover{
+        color: orange;
+    }
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 112.8rem;
+    margin: 0 auto;
+   
+}
+
